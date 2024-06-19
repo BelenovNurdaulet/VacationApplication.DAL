@@ -1,0 +1,21 @@
+﻿@model VacationApplication.DAL.Models.CreateVacationApplicationRequest
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="CreateBy"></label>
+        <input asp-for="CreateBy" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="StartDate"></label>
+        <input asp-for="StartDate" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="EndDate"></label>
+        <input asp-for="EndDate" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="ApplicationTypeId"></label>
+        <input asp-for="ApplicationTypeId" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>

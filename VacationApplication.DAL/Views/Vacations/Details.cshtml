@@ -1,0 +1,25 @@
+﻿@model IEnumerable<VacationApplication.DAL.Models.VacationApplicationResponse>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>CreateBy</th>
+        <th>StartDate</th>
+        <th>EndDate</th>
+        <th>ApplicationTypeId</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var vacation in Model)
+    {
+        <tr>
+            <td>@vacation.Id</td>
+            <td>@vacation.CreateBy</td>
+            <td>@vacation.StartDate</td>
+            <td>@vacation.EndDate</td>
+            <td>@vacation.ApplicationTypeId</td>
+        </tr>
+    }
+    </tbody>
+</table>
