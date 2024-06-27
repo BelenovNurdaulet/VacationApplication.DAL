@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nurbolatzursinbek/RiderProjects/VacationApplication.DAL/VacationApplication.DAL/VacationApplication.DAL.csproj": {}
+    "C:\\Users\\belen\\Desktop\\Проект\\VacationApplication.DAL\\VacationApplication.DAL\\VacationApplication.DAL.csproj": {}
   },
   "projects": {
-    "/Users/nurbolatzursinbek/RiderProjects/VacationApplication.DAL/VacationApplication.DAL/VacationApplication.DAL.csproj": {
+    "C:\\Users\\belen\\Desktop\\Проект\\VacationApplication.DAL\\VacationApplication.DAL\\VacationApplication.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nurbolatzursinbek/RiderProjects/VacationApplication.DAL/VacationApplication.DAL/VacationApplication.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\belen\\Desktop\\Проект\\VacationApplication.DAL\\VacationApplication.DAL\\VacationApplication.DAL.csproj",
         "projectName": "VacationApplication.DAL",
-        "projectPath": "/Users/nurbolatzursinbek/RiderProjects/VacationApplication.DAL/VacationApplication.DAL/VacationApplication.DAL.csproj",
-        "packagesPath": "/Users/nurbolatzursinbek/.nuget/packages/",
-        "outputPath": "/Users/nurbolatzursinbek/RiderProjects/VacationApplication.DAL/VacationApplication.DAL/obj/",
+        "projectPath": "C:\\Users\\belen\\Desktop\\Проект\\VacationApplication.DAL\\VacationApplication.DAL\\VacationApplication.DAL.csproj",
+        "packagesPath": "C:\\Users\\belen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\belen\\Desktop\\Проект\\VacationApplication.DAL\\VacationApplication.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/nurbolatzursinbek/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\belen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -33,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -57,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
